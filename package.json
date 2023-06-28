@@ -1,0 +1,14 @@
+{
+  "name": "zapdesk-static-files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/deviiit/zapdesk-static-files.git",
+  "author": "kodiyak <mathewsto51@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^10.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.0.3",
+    "semantic-release": "21.0.1"
+  }
+}
