@@ -47,7 +47,7 @@ Error generating stack: `+h.message+`
   display: flex;
   flex-direction: ${e=>[It.ChatPosition.TopLeft,It.ChatPosition.TopRight].includes(e.theme.position)?"column-reverse":"column"};
   margin: 0 10px;
-  font-family: "Noto Sans";
+  font-family: "Plus Jakarta Sans";
 
   * {
     box-sizing: border-box;
@@ -57,7 +57,7 @@ Error generating stack: `+h.message+`
     border: none;
     cursor: pointer;
     outline: none;
-    font-family: "Noto Sans";
+    font-family: "Plus Jakarta Sans";
     /* background: transparent; */
   }
 
@@ -65,7 +65,7 @@ Error generating stack: `+h.message+`
     border: none;
     background: transparent;
     outline: none;
-    font-family: "Noto Sans";
+    font-family: "Plus Jakarta Sans";
   }
 
   p {
