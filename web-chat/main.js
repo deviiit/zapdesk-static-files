@@ -19711,7 +19711,7 @@ class ld {
   }) {
     var v, _, S;
     const a = `zapdesk-web-${n}`, c = r || "https://zapdesk.api.homolog.idevit.app", f = Object.assign(document.createElement("link"), {
-      href: "https://cdn.jsdelivr.net/gh/deviiit/zapdesk-static-files@main/web-chat/style.css",
+      href: "https://cdn.jsdelivr.net/gh/deviiit/zapdesk-static-files@v1.6.0/web-chat/style.css",
       rel: "stylesheet"
     });
     document.head.append(f);
