@@ -19734,7 +19734,11 @@ class ld {
       email: x,
       user_id: y,
       phone_number: u
-    }, new ld(a, m);
+    }, document.body.appendChild(
+      Object.assign(document.createElement("div"), {
+        id: a
+      })
+    ), new ld(a, m);
   }
 }
 window.ZapDesk = ld;
