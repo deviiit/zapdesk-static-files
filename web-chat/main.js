@@ -19725,8 +19725,8 @@ class Mv {
     const f = await fetch(
       `${a}/api/web/connections/${n}/configs`
     ).then((y) => y.json()).then((y) => y.data.configs).then((y) => y).catch(() => {
-    });
-    return new Mv(o, f);
+    }), m = new Mv(o, f);
+    return console.log(m), m;
   }
 }
 export {
