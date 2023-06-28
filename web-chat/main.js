@@ -19711,14 +19711,14 @@ class ld {
   }) {
     var v, _, S;
     const a = `zapdesk-web-${n}`, c = r || "https://zapdesk.api.homolog.idevit.app", f = Object.assign(document.createElement("link"), {
-      href: "https://cdn.jsdelivr.net/gh/deviiit/zapdesk-static-files@v1.6.0/web-chat/style.css",
+      href: "https://cdn.jsdelivr.net/gh/deviiit/zapdesk-static-files@v1.8.0/web-chat/style.css",
       rel: "stylesheet"
     });
     document.head.append(f);
     const m = await fetch(
       `${c}/api/web/connections/${n}/configs`
     ).then((k) => k.json()).then((k) => k.data.configs).then((k) => k).catch(() => {
-    }), y = (o == null ? void 0 : o.user_id) || m.settings.user_id || void 0, g = (o == null ? void 0 : o.name) || ((v = m.settings) == null ? void 0 : v.name) || void 0, x = (o == null ? void 0 : o.email) || ((_ = m.settings) == null ? void 0 : _.email) || (o == null ? void 0 : o.email) || void 0, u = (o == null ? void 0 : o.phone_number) || ((S = m.settings) == null ? void 0 : S.phone_number) || void 0;
+    }), y = (o == null ? void 0 : o.user_id) || m.settings.user_id || void 0, g = (o == null ? void 0 : o.name) || ((v = m.settings) == null ? void 0 : v.name) || void 0, x = (o == null ? void 0 : o.email) || ((_ = m.settings) == null ? void 0 : _.email) || void 0, u = (o == null ? void 0 : o.phone_number) || ((S = m.settings) == null ? void 0 : S.phone_number) || void 0;
     return m.settings = {
       app_id: m.settings.app_id,
       name: g,
